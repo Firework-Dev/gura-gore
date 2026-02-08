@@ -3,6 +3,7 @@ Official add-ons repository for Gura - an advanced package manager stand for Giv
 
 # How my app(s) can appear in GORE (W.I.P)
 > **NOTE**: This instructions is not done.
+
 Step 1: Create an `.gura` zip file
   - Step 1.1: Create an `yourcooladdon.zip` (replace `yourcooladdon` to name of your addon), then add folders like below into the file:
     ```└├│─
