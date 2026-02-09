@@ -18,3 +18,11 @@ Official add-ons repository for **Gura** - an *advanced package manager* stand f
        └─ metadata.json        // Add-on version, author,... is here
     ```
 **Step 2**: Pull a request
+
+# How can I download add-on(s) from GORE
+## In Micro Consen Add-ons
+Type this: 
+```
+gura get <addon-name>
+``` 
+*(replace add-on to your add-ons you want install)*
