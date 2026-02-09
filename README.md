@@ -5,12 +5,16 @@ Official add-ons repository for Gura - an advanced package manager stand for Giv
 > **NOTE**: This instructions is not done.
 
 Step 1: Create an `.gura` zip file
-  - Step 1.1: Create an `yourcooladdon.zip` (replace `yourcooladdon` to name of your addon), then add folders like below into the file:
+  - Step 1.1: Create an `yourcooladdon.zip` (replace `yourcooladdon` to name of your add-on), then add folders like below into the file:
     ```└├│─
     yourcooladdon.zip
     ├─ addon
-    |  └─ mc.sprite3           // Your app here (mc for micro-consen addons, bos6 for APX2 app, bos5 for APX1 app,...)
+    |  ├─ micro-consen
+    |  ├   └─ yourcooladdon.sprite3
+    |  └─ openmx
+    |      └─ yourcooladdon.mx.sprite3
     └─ data
        └─ gura.ver             // Gura package version is here
        └─ metadata.json        // Add-on version, author,... is here
     ```
+Step 2:
